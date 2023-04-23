@@ -9,7 +9,7 @@ public class PrintRenewalDetails {
             System.out.println(Response.SUBSCRIPTIONS_NOT_FOUND);
             return;
         }
-        int revenue = RevenueCalculator.CalculateRevenue(user);
+        int revenue = RevenueCalculator.calculateRevenue(user);
         System.out.println(Response.RENEWAL_AMOUNT + " " + revenue);
     }
 }

@@ -8,7 +8,7 @@ import com.example.geektrust.constants.Response;
 import java.util.List;
 
 public class RevenueCalculator {
-    public static int CalculateRevenue(User user) {
+    public static int calculateRevenue(User user) {
         int revenue = 0;
         List<StreamingPlan> streamingPlansList = user.getStreamingPlanList();
         for (StreamingPlan s : streamingPlansList) {

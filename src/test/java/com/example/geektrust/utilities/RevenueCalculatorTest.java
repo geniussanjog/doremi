@@ -14,7 +14,7 @@ class RevenueCalculatorTest {
         user.addToStreamingPlans(startDate, "VIDEO", "PREMIUM");
         user.addToStreamingPlans(startDate, "PODCAST", "FREE");
         user.addTopup(startDate,"FOUR_DEVICE","3");
-        int revenue = RevenueCalculator.CalculateRevenue(user);
+        int revenue = RevenueCalculator.calculateRevenue(user);
         assertEquals(750,revenue);
     }
 

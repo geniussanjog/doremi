@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class DateValidatorTest {
+class DateValidatorTest {
     @Test
     void isValidDate1() {
         boolean isValidDate = DateValidator.isValidDate("20-07-2022");

@@ -10,8 +10,9 @@ public class ProcessInputCommands {
         if (!DateValidator.isValidDate(date)) {
             System.out.println(Response.INVALID_DATE);
             return null;
+        } else {
+            return date;
         }
-        else return date;
     }
 
     public static void handleAddSubscription(String startDate, String plan, String amount, User user) {
