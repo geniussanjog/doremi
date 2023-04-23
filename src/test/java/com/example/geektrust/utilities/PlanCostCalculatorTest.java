@@ -4,7 +4,7 @@ import com.example.geektrust.constants.PlanCategory;
 import com.example.geektrust.constants.PlanType;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class PlanCostCalculatorTest {
 

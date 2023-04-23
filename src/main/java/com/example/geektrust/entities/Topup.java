@@ -1,7 +1,7 @@
 package com.example.geektrust.entities;
 
-import com.example.geektrust.utilities.TopupCostCalculator;
 import com.example.geektrust.constants.TopupCategory;
+import com.example.geektrust.utilities.TopupCostCalculator;
 
 public class Topup {
     private TopupCategory topupCategory;

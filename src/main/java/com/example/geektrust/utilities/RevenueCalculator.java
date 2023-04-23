@@ -1,9 +1,9 @@
 package com.example.geektrust.utilities;
 
+import com.example.geektrust.constants.Response;
 import com.example.geektrust.entities.StreamingPlan;
 import com.example.geektrust.entities.Topup;
 import com.example.geektrust.entities.User;
-import com.example.geektrust.constants.Response;
 
 import java.util.List;
 

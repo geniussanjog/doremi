@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class User implements SubscribeStreamingPlan, SubscribeTopup {
-    private List<StreamingPlan> streamingPlanList = new ArrayList<>();
+    private final List<StreamingPlan> streamingPlanList = new ArrayList<>();
     private Topup topup;
     private boolean isTopupAdded = false;
 

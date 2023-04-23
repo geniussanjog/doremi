@@ -5,10 +5,10 @@ import com.example.geektrust.constants.PlanType;
 import com.example.geektrust.utilities.PlanCostCalculator;
 import com.example.geektrust.utilities.RenewalDateCalculator;
 
-public class StreamingPlan {
-    private PlanCategory planCategory;
-    private PlanType planType;
-    private String startDate;
+public final class StreamingPlan {
+    private final PlanCategory planCategory;
+    private final PlanType planType;
+    private final String startDate;
     private String renewalDate;
     private int cost;
 
